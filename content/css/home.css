@@ -1,0 +1,129 @@
+@font-face {
+    font-family: poppins;
+    src: url("https://content.be-political.org/fonts/poppins");
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url("https://content.be-political.org/fonts/poppins-bold");
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url("https://content.be-political.org/fonts/poppins-light");
+}
+
+@font-face {
+    font-family: edu-vic;
+    src: url("https://content.be-political.org/fonts/edu-vic");
+}
+
+@font-face {
+    font-family: grey-qo;
+    src: url("https://content.be-political.org/fonts/grey-qo");
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url("https://content.be-political.org/fonts/merriweather");
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url("https://content.be-political.org/fonts/montserrat");
+}
+
+@font-face {
+    font-family: noto-serif;
+    src: url("https://content.be-political.org/fonts/noto-serif");
+}
+
+@font-face {
+    font-family: playfair;
+    src: url("https://content.be-political.org/fonts/playfair");
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("https://content.be-political.org/fonts/roboto");
+}
+
+@font-face {
+    font-family: roboto-condensed;
+    src: url("https://content.be-political.org/fonts/roboto-condensed");
+}
+
+@font-face {
+    font-family: roboto-mono;
+    src: url("https://content.be-political.org/fonts/roboto-mono");
+}
+
+.website-title {
+    font-family: poppins-light;
+    font-size: 85px;
+    text-align: center;
+}
+
+.wheel-container-visual {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+@keyframes wheel-movement {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.wheel-container {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    /**animation: wheel-movement 2s linear 0s infinite;**/
+}
+
+.wheel-container p:nth-child(1) {
+    font-family: edu-vic;
+}
+
+.wheel-container p:nth-child(2) {
+    font-family: grey-qo;
+}
+
+.wheel-container p:nth-child(3) {
+    font-family: merriweather;
+}
+
+.wheel-container p:nth-child(4) {
+    font-family: montserrat;
+}
+
+.wheel-container p:nth-child(5) {
+    font-family: noto-serif;
+}
+
+.wheel-container p:nth-child(6) {
+    font-family: playfair;
+}
+
+.wheel-container p:nth-child(7) {
+    font-family: roboto;
+}
+
+.wheel-container p:nth-child(8) {
+    font-family: roboto-condensed;
+}
+
+.wheel-container p:nth-child(9) {
+    font-family: roboto-mono;
+}
+
+
+.wheel-element {
+    font-size: 70px;
+    padding-left: 20px;
+}

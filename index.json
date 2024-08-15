@@ -1,0 +1,29 @@
+{
+    "fonts": {
+            "root": "/content/fonts/",
+            "aliases": {
+                "oxygen": "Oxygen/Oxygen-Regular.ttf",
+                "poppins": "Poppins/Poppins-Regular.ttf",
+                "poppins-bold": "Poppins/Poppins-Bold.ttf",
+                "poppins-light": "Poppins/Poppins-Light.ttf",
+                "edu-vic": "Edu_VIC_WA_NT_Beginner/static/EduVICWANTBeginner-Regular.ttf",
+                "grey-qo": "Grey_Qo/GreyQo-Regular.ttf",
+                "merriweather": "Merriweather/Merriweather-Regular.ttf",
+                "montserrat": "Montserrat/static/Montserrat-Regular.ttf",
+                "noto-serif": "Noto_Serif_Khitan_Small_Script/NotoSerifKhitanSmallScript-Regular.ttf",
+                "playfair": "Playfair_Display/static/PlayfairDisplay-Regular.ttf",
+                "roboto": "Roboto/Roboto-Regular.ttf",
+                "roboto-condensed": "Roboto_Condensed/static/RobotoCondensed-Regular.ttf",
+                "roboto-mono": "Roboto_Mono/static/RobotoMono-Regular.ttf"
+            },
+            "index": ["edu-vic-beginner", "grey-Qo", "merriweather", "montserrat", "noto-serif", "oxygen", "playfair", "roboto", "roboto-condensed", "roboto-mono"],
+            "path": ["/Edu_VIC_WA_NT_Beginner/EduVICWANTBeginner-VariableFont_wght.ttf", "/Grey_Qo/GreyQo-Regular.ttf", "/Merriweather/Merriweather-Regular.ttf", "/Montserrat/Montserrat-VariableFont_wght.ttf", "/Noto_Serif_Khitan_Small_Script/NotoSerifKhitanSmallScript-Regular.ttf", "/Oxygen/Oxygen-Regular.ttf", "/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf", "/Roboto/Roboto-Regular.ttf", "/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf"]
+        },
+    "css": {
+        "root": "/content/css/",
+        "aliases": {
+            "default": "main.css",
+            "home": "home.css"
+        }
+    }
+}
