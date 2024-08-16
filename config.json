@@ -12,7 +12,7 @@
         "pages": {
             "home": "pages/home.html"
         },
-        "root": "/home/gwen/be-political.org"
+        "root": "/var/www/be-political.org"
     },
     "ports": {
         "root": 3000,
