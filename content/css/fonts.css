@@ -1,3 +1,14 @@
+/**
+    Created: 8/16/2024
+    File: fonts.css
+    Description: File to compile and configure all used font-families
+**/
+
+@font-face {
+    font-family: oxygen;
+    src: url("https://content.be-political.org/fonts/oxygen");
+}
+
 @font-face {
     font-family: poppins;
     src: url("https://content.be-political.org/fonts/poppins");
@@ -56,74 +67,4 @@
 @font-face {
     font-family: roboto-mono;
     src: url("https://content.be-political.org/fonts/roboto-mono");
-}
-
-.website-title {
-    font-family: poppins-light;
-    font-size: 85px;
-    text-align: center;
-}
-
-.wheel-container-visual {
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
-}
-
-@keyframes wheel-movement {
-    from {
-        transform: translateX(-50%);
-    }
-
-    to {
-        transform: translateX(100%);
-    }
-}
-
-.wheel-container {
-    display: flex;
-    white-space: nowrap;
-    overflow: hidden;
-    /**animation: wheel-movement 2s linear 0s infinite;**/
-}
-
-.wheel-container p:nth-child(1) {
-    font-family: edu-vic;
-}
-
-.wheel-container p:nth-child(2) {
-    font-family: grey-qo;
-}
-
-.wheel-container p:nth-child(3) {
-    font-family: merriweather;
-}
-
-.wheel-container p:nth-child(4) {
-    font-family: montserrat;
-}
-
-.wheel-container p:nth-child(5) {
-    font-family: noto-serif;
-}
-
-.wheel-container p:nth-child(6) {
-    font-family: playfair;
-}
-
-.wheel-container p:nth-child(7) {
-    font-family: roboto;
-}
-
-.wheel-container p:nth-child(8) {
-    font-family: roboto-condensed;
-}
-
-.wheel-container p:nth-child(9) {
-    font-family: roboto-mono;
-}
-
-
-.wheel-element {
-    font-size: 70px;
-    padding-left: 20px;
 }

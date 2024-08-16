@@ -1,0 +1,27 @@
+{
+    "paths": {
+        "content": {
+            "index": "content/index.json"
+        },
+        "logs": {
+            "root": "logs/root.log",
+            "content": "logs/content.log",
+            "general": "logs/general.log",
+            "critical": "logs/critical.log"
+        },
+        "pages": {
+            "home": "pages/home.html"
+        },
+        "root": "/home/gwen/be-political.org"
+    },
+    "ports": {
+        "root": 3000,
+        "content": 3001
+    },
+    "content": {
+        "urlFormat": "/:directory/:index"
+    },
+    "CORS": {
+        "origin": "https://be-political.org"
+    }
+}

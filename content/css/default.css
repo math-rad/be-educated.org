@@ -1,0 +1,8 @@
+/**
+    Created: 8/16/2024
+    File: default.css
+    Description: Default CSS for all be-political.org pages, used for non-page-specific pages and establishing a general aesthetic for the website
+**/
+
+@import url("https://content.be-political.org/css/fonts");
+@import url("https://content.be-political.org/css/variables")

@@ -19,11 +19,22 @@
             "index": ["edu-vic-beginner", "grey-Qo", "merriweather", "montserrat", "noto-serif", "oxygen", "playfair", "roboto", "roboto-condensed", "roboto-mono"],
             "path": ["/Edu_VIC_WA_NT_Beginner/EduVICWANTBeginner-VariableFont_wght.ttf", "/Grey_Qo/GreyQo-Regular.ttf", "/Merriweather/Merriweather-Regular.ttf", "/Montserrat/Montserrat-VariableFont_wght.ttf", "/Noto_Serif_Khitan_Small_Script/NotoSerifKhitanSmallScript-Regular.ttf", "/Oxygen/Oxygen-Regular.ttf", "/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf", "/Roboto/Roboto-Regular.ttf", "/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf"]
         },
+
     "css": {
         "root": "/content/css/",
         "aliases": {
-            "default": "main.css",
-            "home": "home.css"
+            "default": "default.css",
+            "variables": "variables.css",
+            "fonts": "fonts.css",
+            "home": "pages/home.css"
+        }
+    },
+
+    "js": {
+        "root": "/content/js/",
+        "aliases": {
+            "utility": "utility.js",
+            "home": "home.js"
         }
     }
 }

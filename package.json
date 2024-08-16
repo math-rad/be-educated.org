@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node root.js & node content.js"
+    "root": "node src/root.js",
+    "content": "node src/content.js",
+    "start": "npm run root & npm run content"
   },
   "author": "",
   "license": "ISC",
